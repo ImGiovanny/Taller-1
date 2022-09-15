@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/eyeye.jfif');
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Itim', cursive;
+    color: #5ccdfa;
+}
+
+/*Estilos del Formulario*/
+.frm-container{
+    background-color: rgba(0,0, 0, 0.7);
+    max-width: 40rem;
+    width: 100%;
+    color: #ffff;
+    padding: 2rem;
+    margin: 50px auto;
+
+}
+
+.frm-input{
+    width: 100%;
+    min-height: 2.5rem;
+    padding: 0 1rem;
+}
+
+.frm-input:focus{
+    outline: none;
+    border-color: #5ccdfa;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#g-teminos{
+    display: flex;
+    justify-content: center;
+}
+
+.frm-checkbox{
+    margin: 1rem;
+}
+
+.btn-enviar{
+    background: linear-gradient(#11b5f6 ,#5ccdfa);
+    padding: 02.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-enviar:focus{
+    background: linear-gradient(#11b5f6 ,#5ccdfa);
+}
+
+.msn-error{
+    font-size: 11px;
+    color: #5ccdfa;
+} 
+
+.form-group{
+    margin: 0.5rem;
+}
+
+label{
+    font-weight: 500;
+}
+
+.form-group-input{
+    position: relative;
+
+}
+
+.frm-icono{
+    position: absolute;
+    right: 1rem;
+
+}
+
+.succes{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.msn-error-visible{
+    visibility: ;
+}
