@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('../img/javascript.jpeg');
+    background-image: url('../img/javita.webp');
     background-size: 100%;
     height: 100%;
     width: 100%;
@@ -19,6 +19,7 @@ body {
     justify-content: start;
     align-items: center;
     flex-wrap: wrap;
+    background-repeat: no-repeat;
 }
 
 a { 

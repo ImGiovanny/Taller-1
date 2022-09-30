@@ -16,7 +16,9 @@ a {
 
 body{
     font-family: 'Product Sans', sans-serif;
-    background: #8D99AE;  /* fallback for old browsers */
+    background-repeat: no-repeat;
+    background-size: 1350px 1400px;
+    background-image: url('../img/valida.webp') ;
     font-size: 16px;
     text-decoration: none;
 }
